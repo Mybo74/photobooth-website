@@ -1,0 +1,328 @@
+#wrap{
+    margin: auto;
+    padding: 0px;
+    width:1200px;
+}
+#pageTop{
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 25;
+    text-align: top;
+    color: rgb(90, 11, 41); 
+    font-size: 2.0em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/*style general du site*/
+body {
+    background-image:url('../img/FlowerWall2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    opacity: 0.95;
+   }
+header {
+   
+    background-color: rgb(245, 144, 225);
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: rgb(90, 11, 41); 
+    font-size: 1.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+/*format du contenu de la page principale*/
+main{
+    background-color: rgb(248, 228, 246);
+    opacity: 1.0;
+    height:fit-content;
+    margin: 5px;
+    margin-left: 0px;
+    padding: 10px;
+    color:rgba(235, 155, 7, 0.774);
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.intro {
+    font-size: 2em;   
+}
+
+main .imageIndex {
+    display: inline-block;
+    width: 550px;
+    height: auto;
+       
+}
+
+/*page photobooth*/
+
+.col2{
+  float: left;
+  width: 50%;
+  padding:5px;
+  font-size:xx-large;
+  color: rgb(90, 11, 41);
+  }
+ 
+.row::after{
+  content:"";
+  clear:both;
+  display: table;
+}
+
+img{
+  border: 15px solid #ddd
+ }
+#mirror{
+  width:50%
+}
+/*fin*/
+
+main section .colonne2{
+    display: inline-block;
+    width: 80%;
+}
+
+section .galery {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+}
+
+/*menu navigation*/
+nav {
+    height: 50px;
+    background-color:  rgb(88, 11, 65);
+    }
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-top: 1%;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    nav ul li a {
+        color: rgb(224, 215, 222); 
+        font-size: 1.3em;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    nav ul li a:hover{/*mise en evidence des boutons */
+        color:rgba(255, 166, 0, 0.473)
+    }
+
+  
+  * {
+    box-sizing: border-box;
+  }*/
+  
+  
+address {
+    background-color: rgb(245, 144, 225);
+    padding: 20px;
+    color: black; 
+    font-size: 0.8em;
+    text-decoration: none;
+    font-family: tahoma, Verdana, Anel, Calibri;
+}
+
+footer {
+    background-color:  rgb(82, 19, 56);
+    padding:10px;
+    color: black; 
+    font-size: 1.0em;
+    text-decoration: none;
+    font-family: tahoma, Verdana, Anel, Calibri;
+    font-weight: 300;
+    margin:auto;
+    width:1200px;
+    height:fit-content;
+    }
+
+
+    /*2 colonnes page plan*/
+.colonne {
+    display: inline-block;
+    width: 45%;
+     }
+
+.transbox {
+    padding: 30px;
+    background-color: #efdaf0;
+    opacity: 0.9;
+     }
+
+#pageContent.gallery ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+/*bordure des images*/
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0px;
+    width: 100%;
+    opacity: 1;
+      }
+
+/* page galerie */
+div.gallery {
+    border: 1px solid #ccc;
+      }
+      
+div.gallery:hover {
+    border: 1px solid #777;
+      }
+
+ /* mise en page du formulaire*/
+ input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 65px;
+  resize:vertical;
+  font-size: large;
+ }
+ input[type=email], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 52px;
+  resize:vertical;
+  font-size: large;
+ }
+ input[type=tel], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize:vertical;
+  font-size: large;
+  margin-left: 10px;
+ }
+ input[type=date], select, textarea {
+  width: 20%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 250px;
+  resize:vertical;
+  font-size: large;
+ }
+ input[type=message], select, textarea {
+  width: 50%;
+  padding: 100px;
+  border: 1px solid #ccc;
+  resize:vertical;
+  font-size: large;  
+  margin-left: 100px;
+}
+
+
+.contact form button{
+    padding: 50px;
+    background-color: var(--red);
+    color: var(--white);
+    order: none;
+    margin-top: 5px;
+   
+    }
+.contact form button:hover{
+    background-color: var(--shaded-red);
+    }
+.contact form:active{
+    background-color: var(--red);
+    }
+    
+
+
+.col {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.colN {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.colP{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*Page forfait*/
+.col3 {
+  display:inline-table;
+  width: 25%; 
+  background-color: rgb(66, 44, 63);
+  color:#ddd;
+  padding:5px;
+  font-size: large;
+ }
+
+
+@media only screen and (max-width: 600px) {
+.colF {
+  display: block; /* Make elements inside the container behave like table cells */
+  width: 100%;
+  
+}
+}
+
+main .video {
+width: 500px;
+height:300px;
+display: inline-block;
+}
+
+#question{
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(88, 11, 65);
+}
+#reponse{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:100;
+  color: rgba(141, 96, 14, 0.76);
+}
+
+   
